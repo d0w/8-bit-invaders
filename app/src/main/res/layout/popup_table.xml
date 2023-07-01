@@ -1,0 +1,34 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <!-- Leaderboard Table for Pop-Up -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/positionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Position"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000000"/>
+    </TableRow>
+
+</TableLayout>
